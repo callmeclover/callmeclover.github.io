@@ -1,0 +1,16 @@
+h1 {
+font-family: 'Questrial', sans-serif;
+}
+
+p {
+font-family: 'Nunito Sans', sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+font-family: 'Antic Didone', serif;
+}
+ 
+html {
+color: white;
+background-color: black;
+}
