@@ -83,3 +83,34 @@ h1 {
   text-align: center;
   font-size: 5vw;
 }
+
+.woop {
+  user-select: none;
+    animation:spinO 2s ease-in-out 1;
+    -webkit-animation:spinO 2s ease-in-out 1;
+}
+
+.woop:hover {
+  -webkit-animation:spin 1s ease-in-out 1;
+    animation:spin 1s ease-in-out 1;
+}
+@keyframes spin
+{
+from {transform: rotate(0deg);}
+to   {transform: rotate(360deg);}
+}
+@-webkit-keyframes spin /* Safari and Chrome */
+{
+from {transform: rotate(0deg);}
+to   {-webkit-transform: rotate(360deg);}
+}
+@keyframes spinO
+{
+from {transform: rotate(360deg);}
+to   {transform: rotate(0deg);}
+}
+@-webkit-keyframes spinO /* Safari and Chrome */
+{
+from {transform: rotate(360deg);}
+to   {-webkit-transform: rotate(0deg);}
+}
