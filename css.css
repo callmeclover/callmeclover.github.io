@@ -2,9 +2,7 @@ h1, h2 {
 font-family: 'Questrial', sans-serif;
 }
 
-p {
-font-family: 'Nunito Sans', sans-serif;
-}
+p {font-family: 'Nunito Sans', sans-serif;font-size: 1.5vw;}
 
 h3, h4, h5, h6 {
 font-family: 'Antic Didone', serif;
@@ -72,4 +70,16 @@ background-color: #363e38;
 }
 a {
 color: #d5ffd2;
+}
+
+hr {
+  color: #4c6053;
+  background: #4c6053;
+  border-radius: .5em;
+  height: 10;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5vw;
 }
